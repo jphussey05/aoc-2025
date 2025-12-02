@@ -6,7 +6,6 @@ with open(FILEPATH) as fin:
 pos = 50
 cnt = 0
 
-
 for rot in contents:
     change = int(rot[1:])
 
@@ -20,6 +19,5 @@ for rot in contents:
         elif pos == 100:
             cnt += 1
             pos = 0
-
 
 print(cnt)
